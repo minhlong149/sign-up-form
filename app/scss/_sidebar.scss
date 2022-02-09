@@ -1,0 +1,16 @@
+@import "font";
+
+.sidebar {
+  background-image: url("../assets/image/image-sidebar-mobile.jpg");
+}
+
+.sidebar__hero {
+  background-color: black;
+}
+
+.sidebar__title {
+  display: inline;
+  color: white;
+  font-size: 3rem;
+  font-family: "Norse Bold", serif ;
+}
