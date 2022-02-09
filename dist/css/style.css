@@ -52,6 +52,19 @@ table {
   border-spacing: 0;
 }
 
+em {
+  font-style: italic;
+}
+
+a, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,15 +73,16 @@ body {
 
 .sidebar {
   min-width: 30vw;
+  height: 100vh;
 }
 
 @font-face {
-  font-family: "Norse Bold";
-  src: url(../assets/fonts/Norse-Bold.otf) format("otf");
+  font-family: "Norse";
+  src: url("../../app/assets/fonts/Norse-Bold.otf");
 }
 
 .sidebar {
-  background-image: url("../assets/image/image-sidebar-mobile.jpg");
+  background-image: url("../../app/assets/image/image-sidebar-desktop.jpg");
 }
 
 .sidebar__hero {
@@ -78,7 +92,7 @@ body {
 .sidebar__title {
   display: inline;
   color: white;
-  font-size: 3rem;
-  font-family: "Norse Bold", serif;
+  font-size: 4rem;
+  font-family: "Norse", serif;
 }
 /*# sourceMappingURL=style.css.map */

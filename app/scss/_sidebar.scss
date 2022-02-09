@@ -1,7 +1,10 @@
-@import "font";
+@font-face {
+  font-family: "Norse";
+  src: url("../../app/assets/fonts/Norse-Bold.otf");
+}
 
 .sidebar {
-  background-image: url("../assets/image/image-sidebar-mobile.jpg");
+  background-image: url("../../app/assets/image/image-sidebar-desktop.jpg");
 }
 
 .sidebar__hero {
@@ -11,6 +14,6 @@
 .sidebar__title {
   display: inline;
   color: white;
-  font-size: 3rem;
-  font-family: "Norse Bold", serif ;
+  font-size: 4rem;
+  font-family: "Norse", serif ;
 }
