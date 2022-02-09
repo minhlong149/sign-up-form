@@ -1,13 +1,12 @@
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
- a, a:focus, a:active {
-      text-decoration: none;
-      color: inherit;
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+
+  color: inherit;
 }
-
- a:hover {
-      text-decoration: underline;
-
- }
