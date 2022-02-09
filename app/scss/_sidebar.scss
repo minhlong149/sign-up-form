@@ -5,15 +5,17 @@
 
 .sidebar {
   background-image: url("../../app/assets/image/image-sidebar-desktop.jpg");
+  color: white;
+  text-align: center;
 }
 
 .sidebar__hero {
-  background-color: black;
+  background-color: hsla(0, 0%, 0%, .75);
+  padding: 1rem 0;
 }
 
 .sidebar__title {
   display: inline;
-  color: white;
-  font-size: 4rem;
+  font-size: 100px;
   font-family: "Norse", serif ;
 }

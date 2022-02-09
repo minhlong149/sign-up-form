@@ -1,8 +1,32 @@
 body {
-    display: flex;
+  display: flex;
 }
 
+$sidebar-width: 30vw;
+
 .sidebar {
-    min-width: 30vw;
-    height: 100vh;
+  min-width: 250px;
+  width: $sidebar-width;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar__hero,
+.sidebar__credit {
+  position: relative;
+}
+
+.sidebar__hero {
+  top: 15%;
+}
+
+.sidebar__credit {
+  bottom: 5%;
+}
+
+main {
+  width: 100vw - $sidebar-width;
 }
