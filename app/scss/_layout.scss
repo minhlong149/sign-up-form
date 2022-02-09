@@ -8,23 +8,6 @@ $sidebar-width: 30vw;
   min-width: 250px;
   width: $sidebar-width;
   height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.sidebar__hero,
-.sidebar__credit {
-  position: relative;
-}
-
-.sidebar__hero {
-  top: 15%;
-}
-
-.sidebar__credit {
-  bottom: 5%;
 }
 
 main {

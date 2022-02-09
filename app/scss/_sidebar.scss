@@ -5,17 +5,36 @@
 
 .sidebar {
   background-image: url("../../app/assets/image/image-sidebar-desktop.jpg");
+  background-size: cover;
+
   color: white;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar__hero,
+.sidebar__credit {
+  position: relative;
 }
 
 .sidebar__hero {
-  background-color: hsla(0, 0%, 0%, .75);
-  padding: 1rem 0;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  padding: 20px 0;
+  top: 17%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar__title {
-  display: inline;
+  font-family: "Norse", serif;
   font-size: 100px;
-  font-family: "Norse", serif ;
+}
+
+.sidebar__credit {
+  bottom: 3%;
 }
