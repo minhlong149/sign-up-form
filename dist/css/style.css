@@ -56,28 +56,37 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
 }
 
 .sidebar {
-  min-width: 250px;
   width: 30vw;
   height: 100vh;
 }
 
 main {
   width: 70vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 em {
   font-style: italic;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: underline;
+a {
+  text-decoration: none;
   color: inherit;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+a, button {
+  cursor: pointer;
 }
 
 @font-face {
@@ -129,5 +138,79 @@ a:active {
 
 .sidebar__credit {
   bottom: 3%;
+}
+
+.content {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.info,
+.action,
+.form {
+  padding: 0 15vw 0 50px;
+}
+
+.info {
+  margin-bottom: 25px;
+}
+
+.info .content {
+  font-size: 1.5rem;
+}
+
+.form {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.form .content {
+  font-size: 1.2rem;
+}
+
+form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+}
+
+form div > * {
+  display: block;
+}
+
+form label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: darkslategrey;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+form input {
+  width: 80%;
+  padding: 5px;
+}
+
+.action__btn {
+  padding: 0.8rem 2rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: #596d48;
+}
+
+.action__btn:hover, .action__btn:active {
+  background-color: #4a5e39;
+}
+
+.action__note > a {
+  font-weight: bold;
+  color: #596d48;
 }
 /*# sourceMappingURL=style.css.map */
