@@ -23,7 +23,7 @@ $space: 20px;
 
 form {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   row-gap: 10px;
 
   div > * {
