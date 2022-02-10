@@ -63,7 +63,7 @@
                     <div class="form-input">
                         <label for="password">Password</label>
                         <input type="password" id="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
-                            oninvalid="this.setCustomValidity('Password must be at least 8 characters, including both uppercase and lowercase letters, numbers and at least one special character.')"
+                            oninvalid="this.setCustomValidity('Password must be at least 8 characters, including uppercase and lowercase letters, numbers and special characters.')"
                             oninput="this.setCustomValidity('')">
                     </div>
 
@@ -71,7 +71,7 @@
                         <label for="confirm_password">Confirm password</label>
                         <input type="password" id="confirm_password" required
                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
-                            oninvalid="this.setCustomValidity('Password must be at least 8 characters, including both uppercase and lowercase letters, numbers and at least one special character.')"
+                            oninvalid="this.setCustomValidity('Password must be at least 8 characters, including uppercase and lowercase letters, numbers and special characters.')"
                             oninput="this.setCustomValidity('')">
 
                     </div>
