@@ -85,6 +85,10 @@ a:hover, a:focus, a:active {
   text-decoration: underline;
 }
 
+button {
+  border: none;
+}
+
 a, button {
   cursor: pointer;
 }
@@ -152,7 +156,7 @@ a, button {
 }
 
 .info {
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .info .content {
@@ -169,7 +173,7 @@ a, button {
   font-size: 1.2rem;
 }
 
-form {
+.form__inputs {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -177,11 +181,11 @@ form {
   row-gap: 10px;
 }
 
-form div > * {
+.form__inputs div > * {
   display: block;
 }
 
-form label {
+.form__inputs label {
   font-size: 0.75rem;
   font-weight: bold;
   color: darkslategrey;
@@ -190,7 +194,7 @@ form label {
   letter-spacing: 1px;
 }
 
-form input {
+.form__inputs input {
   width: 80%;
   padding: 5px;
 }
@@ -200,7 +204,6 @@ form input {
   margin: 1rem 0;
   font-weight: bold;
   border-radius: 6px;
-  border: none;
   color: white;
   background-color: #596d48;
 }
