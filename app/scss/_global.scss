@@ -1,7 +1,7 @@
 body {
   display: flex;
   background-color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 $sidebar-width: 30vw;
@@ -20,11 +20,17 @@ em {
   font-style: italic;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: underline;
-
+a {
+  text-decoration: none;
   color: inherit;
+  
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+a, button {
+  cursor: pointer;
 }
