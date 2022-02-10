@@ -1,0 +1,54 @@
+$space: 20px;
+
+.info,
+.action,
+.form {
+  padding: 0 15vw 0 50px;
+}
+
+.info {
+  margin-bottom: $space;
+}
+
+.content {
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.form {
+  background-color: #fff;
+  padding-top: $space;
+  padding-bottom: $space;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+
+  div > * {
+    display: block;
+  }
+}
+
+.action__btn {
+  padding: 0.6rem 2rem;
+  margin: 1rem 0;
+
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+
+  color: white;
+  background-color: #596d48;
+}
+
+.action__note > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #596d48;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
