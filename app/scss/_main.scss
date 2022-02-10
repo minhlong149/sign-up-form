@@ -30,7 +30,7 @@ $primary-dark: #4a5e39;
   }
 }
 
-form {
+.form__inputs {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 10px;
